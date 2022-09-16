@@ -1,0 +1,14 @@
+Learning Experience
+
+What have you learned?
+
+	I have learned quite a lot about Exceptions and junit tests. Exceptions are a way handle scenarios when something goes wrong.
+Using a try catch with a finally allows us to clean up and handle the exception which is practicing good programming behavior. The user of our programs most likely won't know what they did that led to a crash. With these exceptions we can provide some more guidance to the user without crashing the progam. Junit tests are good ways to test our programs ourselves in a set up and finished enviornment. These isolated environments help ensure our code is working properly.
+
+What did you struggle with?
+
+	I think I was most distraught about how to go about dealing witht the unicode checks for the multitude of methods that required it. I haven't written in java in a while so I was a wasn't sure about how to proceed. Eventually I had remebered there was a neat Object Class for the char's in Java, the Character class which really provided useful methods to help with those unicode checks. Another struggle I faced with the unicode checks was the sequence rule. I wasn't too sure how I'd keep track of the index of characters while looping through the string. Initally I had even left out the code to reset the previous character and next character tracker at their respective ends. The junit tests where very ideal in helping me find these bugs while stepping through the debugger.
+
+What would you do differently on your next project?
+
+	I wouldn't use for loops as much. Thinking back on the project most of it could have been done with regex instead of using for loops and iterating through the entire string. While for loops are an easy way, regex is just as easy if not easier. I wouldn't have to deal with looking up unicode refrences, and could just deal with character literals.     
